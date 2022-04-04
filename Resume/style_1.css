@@ -79,7 +79,7 @@ body {
 /* Section Classes */
 
 section {
-    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,6 +113,7 @@ section:nth-child(2n+1){
     height: auto;
     width: 100%;
     position: relative;
+    margin-bottom: 30px;
 }
 
 #my-image {
@@ -143,13 +144,11 @@ section:nth-child(2n+1){
 /*Skills Section*/
 
 .skills-display {
-    width: 75%;
-    padding: 70%;
-    text-align: justify;
-    color: grey;
-    line-height: 28px;
-    font-size: 1.1rem;
-    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .skill-progress {
@@ -222,7 +221,7 @@ section:nth-child(2n+1){
 /* Contact Form */
 
 #contact {
-    background-color: 0abcf9;
+    background-color: #0abcf9;
     background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
     color: white;
     padding-bottom: 40px;
