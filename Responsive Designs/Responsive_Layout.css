@@ -1,0 +1,25 @@
+.block {
+    height: 300px;
+    width: 32%;
+    margin: 1%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .block {
+        width: 100%;
+        display: block;
+    }
+}
+
+.red {
+    background: #ff8989;
+}
+
+.green {
+    background: #88f7ce;
+}
+
+.purple {
+    background: #e29df2;
+}
