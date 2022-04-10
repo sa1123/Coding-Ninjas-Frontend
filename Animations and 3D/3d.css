@@ -3,6 +3,9 @@
     width: 200px;
     position: relative;
     margin: 100px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transform: rotateX(25deg) rotateY(-25deg); 
 }
 
 .face {
@@ -12,14 +15,17 @@
     top: 20%;
     left: 20%;
     transition: all 1s;
-    transform-style: preserve-3d;
-    perspective: 1000px;
 }
 
 .one{
     background-color: skyblue;
 }
 
-.one:hover{
+/* .one:hover{
     transform: rotateX(40deg) rotateY(40deg);
+} */
+
+.two{
+    background-color: orange;
+    transform: rotateY(90deg) translateZ(-100px) translateX(-100px);
 }
