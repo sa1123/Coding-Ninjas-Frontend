@@ -8,10 +8,16 @@ div {
     /* transform: rotate(100deg); */
     /* transform: scale(1.5, 0.4); */
     /* transform: translate(100px); */
-    transition: height 1s ease-in-out;
+    /* transition: height 1s ease-in-out; */
+    /* transition: 1s ease-in-out; */
+    transition: 0.5s steps(22, end);
+    border: 1px solid black;
 }
 
 div:hover{
-    height: 300px;
-    width: 300px;
+    /* height: 300px;
+    width: 300px; */
+    /* transform: scale(1.5) translate(150px); */
+    border-radius: 100px;
+    transform: scale(0.5) translate(100px) rotate(360deg);
 }
